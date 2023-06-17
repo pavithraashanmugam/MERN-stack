@@ -1,0 +1,255 @@
+.main{
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+    
+}
+.p{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+.h1{
+    color: #080808;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+    align-items: center;
+}
+.navbar {
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    background-color: #030303;
+}
+.gallery {
+    margin: 25px;
+    border: 4px solid #080808;
+    align-items:center;
+    align-content: space-between;
+    justify-content: left;
+    text-align: center;
+    float:left;
+    width: 400px;
+    height: 560px;
+    align-items: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-image: url("bg2.jpg");
+    background-size: cover;
+  }
+
+  .gallery:hover {
+    box-shadow: 0 0 4px 4px rgba(233, 76, 76, 0.967);
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+.main_container{
+
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(121, 81, 81);;
+}
+
+
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    padding: auto;
+    margin-left: 0%;
+    background-color: rgba(0, 0, 0, 0.956);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.white_btn{
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color:  rgba(4, 4, 4, 0.956);
+    color: rgb(252, 251, 251);
+    border-radius: 12px;
+    width: 180px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.quiz_btn{
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  align-items: center;
+  text-align: center;
+  color: rgb(5, 5, 5);
+  border-radius: 12px;
+  width: 180px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.App,h3{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+.cont {
+  margin: 25px;
+  border: 4px solid #080808;
+  align-items:center;
+  align-content: space-between;
+  justify-content: left;
+  text-align: center;
+  float:left;
+  width: 1400px;
+  height: 640px;
+  align-items: center;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-size: cover;
+  
+}
+
+p{
+  font-size: smaller;
+}
+
+
+.quiz{
+margin: 25px;
+  border: 4px solid #080808;
+  align-items:center;
+  align-content: space-between;
+  justify-content: left;
+  text-align: center;
+  float:left;
+  width: 1450px;
+  height: 640px;
+  align-items: center;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-size: cover;
+  background-image: url("bg2.jpg");
+
+}
+
+.App {
+text-align: center;
+}
+
+.question-card {
+/* Center the div  */
+margin: 0 auto;
+
+/* Dimensions  */
+width: 80%; /* Can be in percentage also. */
+height: auto;
+
+/* Visual  */
+background-color: gray;
+padding: 16px;
+border-radius: 16px;
+color: white;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+ul {
+list-style: none;
+}
+
+li {
+margin-top: 8px;
+margin-left: 150px;
+margin-right: 50px;
+background-color: rgb(191, 246, 163);
+padding: 16px;
+align-items: center;
+text-align: center;
+justify-content: center;
+width : 1000px;
+border: 2px solid rgb(3, 3, 3);
+border-radius: 20px;
+font-size: 20px;
+}
+
+.question-text {
+color: rgb(4, 4, 4);
+font-size: 24px;
+}
+
+/* Final Results  */
+
+.final-results {
+/* Center the div  */
+margin: 0 auto;
+
+/* Dimensions  */
+width: 50%; /* Can be in percentage also. */
+height: auto;
+margin-top: 64px;
+
+/* Visual  */
+background-color: rgb(166, 240, 239);
+padding: 16px;
+border-radius: 16px;
+color: white;
+box-shadow: rgba(226, 226, 236, 0.7) 0px 30px 60px -12px,
+  rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+button {
+background-color: rgb(106, 207, 97); /* Green */
+border: none;
+color: rgb(9, 9, 9);
+padding: 16px 24px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+font-weight: bold;
+
+border-radius: 24px;
+}
